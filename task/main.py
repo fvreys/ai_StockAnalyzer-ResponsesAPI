@@ -32,7 +32,7 @@ def response_contains_mcp_list_tools(response) -> bool:
 
 
 def main():
-    # Free Tiny LLM using OpenAI client
+    # Free Lite LLM using OpenAI client (not Tiny LLM - typo)
     tiny_api_key=os.getenv("TINY_API_KEY")
     if not tiny_api_key:
         raise RuntimeError("TINY_API_KEY is not set.")
